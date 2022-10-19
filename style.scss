@@ -94,6 +94,15 @@ header {
         align-items: center;
         cursor: pointer;
 
+        button {
+            font-size: 14px;
+            height: 18px;
+        }
+
+        span {
+            font-size: 18px;
+        }
+
         &:hover{
             
             background-color: #1a24fb;

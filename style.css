@@ -85,6 +85,13 @@ header h1 {
   align-items: center;
   cursor: pointer;
 }
+#card-container .card-footer button {
+  font-size: 14px;
+  height: 18px;
+}
+#card-container .card-footer span {
+  font-size: 18px;
+}
 #card-container .card-footer:hover {
   background-color: #1a24fb;
   color: #f8f7f3;
