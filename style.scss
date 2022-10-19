@@ -1,0 +1,103 @@
+body {
+    background-color: #f8f7f3;
+    color: #1a24fb;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    width: calc(100vw - (100vw - 100%));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a24fb;
+    height: 40px;
+    width: 100%;
+    color: #f8f7f3;
+    
+    h1 {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.2em;
+        font-family: 'Overpass', sans-serif;
+        line-height: 1;
+    }
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    gap: 100px 20px;
+    margin-top: 80px;
+    padding: 0 40px;
+
+    
+    .card-content {
+        max-width: 360px;
+        height: 470px;
+        padding: 0 40px 40px 40px;
+        border: 1px solid #1a24fb;
+
+        .card-header {
+            font-family: 'Overpass', sans-serif;
+            width: 100%;
+            height: 40px;
+            font-size: 28px;
+            margin-top: 4px;
+            position: relative;
+
+            h3 {
+                position: absolute;
+                right: -26px;
+            }
+        }
+
+        .card-text {
+            width: 100%;
+            height: 100%;
+            h4 {
+                font-family: 'Overpass', sans-serif;
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 0.2em;
+                margin-bottom: 16px;
+            }
+    
+            h2 {
+                font-family: 'Overpass', sans-serif;
+                font-weight: 800;
+                font-size: 36px;
+                margin-bottom: 24px;
+                min-height: 92px;
+            }
+
+            p {
+                line-height: 1.5;
+            }
+        }
+
+       
+    }
+    .card-footer {
+        margin: 4px 0;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover{
+            
+            background-color: #1a24fb;
+            color:#f8f7f3;
+        }
+    }
+}
